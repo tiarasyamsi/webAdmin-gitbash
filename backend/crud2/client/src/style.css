@@ -1,0 +1,84 @@
+
+
+.App{
+    height: 100vh;
+    padding: 0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.books{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+}
+
+.book{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    background-color: rgb(164, 188, 227);
+}
+
+.delete{
+    border: none;
+    padding: 3px 6px;
+    background-color:  #e1d2d2;
+    cursor: pointer;
+    border: 1px solid rgb(233, 170, 170);
+    color: rgb(206, 116, 116);
+}
+
+.update{
+    border: none;
+    padding: 3px 6px;
+    background-color: #e1d2d2;
+    cursor: pointer;
+    border: 1px solid rgb(164, 188, 227);
+    color: rgb(126, 148, 184);
+    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.input{
+    width: 250px;
+    padding: 10px;
+    border: 1px solid rgb(126, 148, 184);
+    
+}
+
+.formButton{
+    border: none;
+    padding: 10px;
+    background-color: rgb(126, 148, 184);
+    color: rgb(255, 254, 254);
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.signup{
+    border: none;
+    padding: 3px 6px;
+    background-color: #e1d2d2;
+    cursor: pointer;
+    border: 1px solid rgb(164, 188, 227);
+    color: rgb(126, 148, 184);   
+}

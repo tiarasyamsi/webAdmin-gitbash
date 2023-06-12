@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "generate-pdf": "^0.0.4"
+  }
+}
